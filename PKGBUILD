@@ -74,3 +74,4 @@ optdepends=('breeze-grub: Breeze theme for GRUB'
             'plymouth-kcm: Configure Plymouth from systemsettings'
             'plasma-sdk: Development tools'
             'wacomtablet-xlibre: Drawing tablet settings on X')
+
