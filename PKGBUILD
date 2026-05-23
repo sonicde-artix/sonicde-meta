@@ -1,4 +1,5 @@
-# Maintainer: artist for Artix Linux
+# Maintainer: callmetango
+# Contributor: artist <artist@artixlinux.org>
 
 pkgname=sonicde-meta
 pkgver=6.6
@@ -57,8 +58,8 @@ depends=(aurorae
          sonic-network-manager
          sonic-night-light
          sonic-screen
-         sonic-screenlocker
          sonic-screen-library
+         sonic-screenlocker
          sonic-silver-sddm
          sonic-silver-theme
          sonic-sysguard-library
@@ -70,12 +71,10 @@ depends=(aurorae
          sonic-x11-session
          spectacle
          systemsettings
-         xdg-desktop-portal-kde
-)
+         xdg-desktop-portal-kde)
 optdepends=('breeze-grub: Breeze theme for GRUB'
             'breeze-plymouth: Breeze theme for Plymouth'
             'kgamma: Adjust gamma settings on X'
             'plymouth-kcm: Configure Plymouth from systemsettings'
             'plasma-sdk: Development tools'
             'wacomtablet-xlibre: Drawing tablet settings on X')
-
