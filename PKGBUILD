@@ -2,7 +2,7 @@
 
 pkgname=sonicde-meta
 pkgver=6.6
-pkgrel=2
+pkgrel=9
 pkgdesc='Meta package to install the Sonic Desktop Environment which aims for keeping and improving the X11-specific ascpects of KDE'
 arch=(x86_64)
 license=('GPL-2.0-or-later')
@@ -11,58 +11,62 @@ depends=(aurorae
          bluedevil
          breeze
          breeze-gtk
-         discover
-         #drkonqi
          flatpak-kcm
          kactivitymanagerd
          kde-cli-tools
          kde-gtk-config
-         kdecoration
-         kdeplasma-addons
-         kglobalacceld
-         kinfocenter
          kmenuedit
-         knighttime
+         konsole
          kpipewire
          krdp
-         kscreen
-         kscreenlocker
          ksshaskpass
          ksystemstats
          kwallet-pam
-         kwayland
          kwrited
-         layer-shell-qt
-         libkscreen
-         libksysguard
-         libplasma
          milou
          ocean-sound-theme
          oxygen
          oxygen-sounds
-         plasma-activities
+         packagekit-qt6
          plasma-activities-stats
          plasma-browser-integration
-         plasma-desktop
          plasma-disks
          plasma-firewall
          plasma-integration
-         plasma-nm
-         plasma-pa
          plasma-systemmonitor
          plasma-thunderbolt
          plasma-vault
          plasma-welcome
-         plasma-workspace-wallpapers
          polkit-kde-agent
          powerdevil
          print-manager
          sddm-kcm
+         sonic-activities
+         sonic-audio-applet-pulse
+         sonic-decoration
          sonic-desktop-interface
+         sonic-frameworks-auth
+         sonic-frameworks-core-addons
+         sonic-frameworks-io
+         sonic-frameworks-keybind
+         sonic-frameworks-quick-ui
+         sonic-frameworks-runner
+         sonic-frameworks-windowsystem
+         sonic-interface-libraries
+         sonic-keybind-daemon
+         sonic-network-manager
+         sonic-night-light
+         sonic-screen
+         sonic-screenlocker
+         sonic-screen-library
          sonic-silver-sddm
          sonic-silver-theme
+         sonic-sysguard-library
+         sonic-system-info
          sonic-win
          sonic-workspace
+         sonic-workspace-addons
+         sonic-workspace-wallpapers
          sonic-x11-session
          spectacle
          systemsettings
@@ -74,3 +78,4 @@ optdepends=('breeze-grub: Breeze theme for GRUB'
             'plymouth-kcm: Configure Plymouth from systemsettings'
             'plasma-sdk: Development tools'
             'wacomtablet-xlibre: Drawing tablet settings on X')
+
