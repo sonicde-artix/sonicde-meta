@@ -3,7 +3,7 @@
 
 pkgname=sonicde-meta
 pkgver=6.6
-pkgrel=9
+pkgrel=10
 pkgdesc='Meta package to install the Sonic Desktop Environment which aims for keeping and improving the X11-specific ascpects of KDE'
 arch=(x86_64)
 license=('GPL-2.0-or-later')
