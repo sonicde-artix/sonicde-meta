@@ -1,23 +1,25 @@
 # Maintainer: callmetango
 # Contributor: artist <artist@artixlinux.org>
+# Contributor: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=sonicde-meta
 pkgver=6.6
-pkgrel=10
-pkgdesc='Meta package to install the Sonic Desktop Environment which aims for keeping and improving the X11-specific ascpects of KDE'
-arch=(x86_64)
-license=('GPL-2.0-or-later')
-url="https://github.com/Sonic-DE"
+pkgrel=11
+pkgdesc='Meta package to install SonicDE, an X11-focused fork of KDE'
+arch=(any)
+license=(None)
+url='https://github.com/Sonic-DE'
 depends=(aurorae
          bluedevil
          breeze
          breeze-gtk
+         drkonqi
          flatpak-kcm
          kactivitymanagerd
          kde-cli-tools
          kde-gtk-config
          kmenuedit
-         konsole
          kpipewire
          krdp
          ksshaskpass
@@ -28,12 +30,12 @@ depends=(aurorae
          ocean-sound-theme
          oxygen
          oxygen-sounds
-         packagekit-qt6
          plasma-activities-stats
          plasma-browser-integration
          plasma-disks
          plasma-firewall
          plasma-integration
+         plasma-keyboard
          plasma-systemmonitor
          plasma-thunderbolt
          plasma-vault
@@ -41,33 +43,15 @@ depends=(aurorae
          polkit-kde-agent
          powerdevil
          print-manager
-         sddm-kcm
-         sonic-activities
          sonic-audio-applet-pulse
-         sonic-decoration
          sonic-desktop-interface
-         sonic-frameworks-auth
-         sonic-frameworks-core-addons
-         sonic-frameworks-io
-         sonic-frameworks-keybind
-         sonic-frameworks-quick-ui
-         sonic-frameworks-runner
-         sonic-frameworks-windowsystem
-         sonic-interface-libraries
-         sonic-keybind-daemon
+         sonic-login-manager
          sonic-network-manager
          sonic-night-light
          sonic-screen
-         sonic-screen-library
-         sonic-screenlocker
-         sonic-silver-sddm
          sonic-silver-theme
-         sonic-sysguard-library
          sonic-system-info
-         sonic-win
-         sonic-workspace
          sonic-workspace-addons
-         sonic-workspace-wallpapers
          sonic-x11-session
          spectacle
          systemsettings
@@ -75,6 +59,9 @@ depends=(aurorae
 optdepends=('breeze-grub: Breeze theme for GRUB'
             'breeze-plymouth: Breeze theme for Plymouth'
             'kgamma: Adjust gamma settings on X'
-            'plymouth-kcm: Configure Plymouth from systemsettings'
             'plasma-sdk: Development tools'
-            'wacomtablet-xlibre: Drawing tablet settings on X')
+            'plasma-workspace-wallpapers: Additional wallpapers'
+            'plymouth-kcm: Configure Plymouth from systemsettings'
+            'sddm-kcm: SDDM configuration module'
+            'sonic-silver-sddm: SDDM silver theme'
+            'wacomtablet: Drawing tablet settings on X')
