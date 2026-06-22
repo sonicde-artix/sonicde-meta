@@ -4,8 +4,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=sonicde-meta
-pkgver=6.6
-pkgrel=11
+pkgver=6.7
+pkgrel=1
 pkgdesc='Meta package to install SonicDE, an X11-focused fork of KDE'
 arch=(any)
 license=(None)
@@ -14,7 +14,7 @@ depends=(aurorae
          bluedevil
          breeze
          breeze-gtk
-         drkonqi
+         #drkonqi we'll add a custom build of this supporting non-systemd later
          flatpak-kcm
          kactivitymanagerd
          kde-cli-tools
